@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'SuperMario256';
+	src: url('../fonts/SuperMario256.ttf') format('truetype');
+}
+
+$body-font: 'Fredoka One', 'Comic Sans', cursive;
+$mario-font: 'SuperMario256', 'Fredoka One', 'Comic Sans', cursive;
+
+h1 {
+	.first-word {
+		display: block;
+		font-size: 50pt;
+		
+		span:nth-child(5n+1) {
+			color: $letter-red;
+		}
+		
+		span:nth-child(5n+2) {
+			color: $letter-green;
+		}
+		
+		span:nth-child(5n+3) {
+			color: $letter-cyan;
+		}
+		
+		span:nth-child(5n+4) {
+			color: $letter-yellow;
+		}
+		
+		span:nth-child(5n+5) {
+			color: $letter-pink;
+		}
+	}
+}

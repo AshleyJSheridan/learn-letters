@@ -1,0 +1,11 @@
+@keyframes glow {
+	from {
+		box-shadow: 0 0 10px $highlight-yellow;
+	}
+	to {
+		box-shadow:
+			0 -5px 40px rgba($highlight-yellow, .5),
+			-5px -5px 40px rgba($highlight-yellow, .5),
+			5px -5px 40px rgba($highlight-yellow, .5);
+	}
+}

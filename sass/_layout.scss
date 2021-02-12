@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $white;
+	color: $black;
+	font-family: $body-font;
+	font-size: 28pt;
+	margin: 0;
+	overflow: hidden;
+}
+
+h1 {
+	color: $white;
+	font-family: $mario-font;
+	font-size: 40pt;
+	margin: 0 0 .5em;
+	-webkit-text-stroke: 5px $black;
+	text-stroke: 5px $black;
+}
+
+p {
+	margin: 0;
+}
+
+svg {
+	height: auto;
+	max-width: 100%;
+}
