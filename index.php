@@ -29,7 +29,7 @@ $letterDescriptions = [
 	'w' => new LetterSlide('W is for Wario', null, 'letter-x'),
 	'x' => new LetterSlide('X is for Xray', null, 'letter-y'),
 	'y' => new LetterSlide('Y is for Yoshi', null, 'letter-z'),
-	'z' => new LetterSlide('Z is for Zombies', null, 'end-screen'),
+	'z' => new LetterSlide('Z is for Zelda', null, 'end-screen'),
 ];
 
 
